@@ -16,7 +16,7 @@ export default defineConfig({
 
   themeConfig: {
     // 暗色主题配置
-    appearance: 'dark',
+    // appearance: 'auto',
 
     // 导航菜单
     nav: [
