@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   srcDir: 'web',
-  base: '/theblog/',
+  base: '/',
 
   title: '💻 Code & Think 🚀',
   description: '极客的编程笔记 | Code More, Think More',
