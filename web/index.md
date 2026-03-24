@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  # name: "My Blog"
-  # text: "A VitePress Site"
-  # tagline: My great project tagline
+  name: "π 开发者🚀"
+  text: "无限不循环的编程之路"
+  # tagline: 开发者技术分享
   actions:
     - theme: brand
       text: 全部文章
@@ -80,56 +80,55 @@ features:
 </div>
 
 <style>
-.latest-posts {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 24px;
-}
-
 .posts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
 }
 
 .category-card {
   background: var(--vp-c-bg-soft);
   border-radius: 12px;
-  padding: 20px;
+  padding: 24px;
   border: 1px solid var(--vp-c-divider);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .category-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-color: var(--vp-c-brand);
 }
 
 .category-header {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 16px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--vp-c-divider);
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--vp-c-divider);
 }
 
 .category-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .category-name {
   flex: 1;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--vp-c-text-1);
   margin: 0;
 }
 
 .more-link {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--vp-c-brand);
   text-decoration: none;
+  font-weight: 500;
   transition: opacity 0.2s;
 }
 
@@ -144,7 +143,7 @@ features:
 }
 
 .post-item {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .post-item:last-child {
@@ -153,12 +152,13 @@ features:
 
 .post-link {
   display: block;
-  padding: 8px 12px;
-  border-radius: 6px;
+  padding: 10px 14px;
+  border-radius: 8px;
   text-decoration: none;
   color: var(--vp-c-text-2);
   transition: background 0.2s, color 0.2s;
   line-height: 1.5;
+  font-size: 0.95rem;
 }
 
 .post-link:hover {
@@ -167,17 +167,16 @@ features:
 }
 
 .post-title {
-  font-size: 0.9rem;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .posts-grid {
     grid-template-columns: 1fr;
+    padding: 16px;
   }
 }
 </style>
-

@@ -49,7 +49,15 @@ export default defineConfig({
   srcDir: 'web',
   base: '/',
 
-  title: '💻 Code & Think 🚀',
+  // 网站图标配置
+  head: [
+    ['link', { rel: 'icon', href: '/favicon-32x32.png', type: 'image/png' }],
+    ['link', { rel: 'icon', href: '/favicon-32x32.png', type: 'image/svg+xml', sizes: '32x32' }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon-32x32.png', sizes: '180x180' }],
+  ],
+
+  // 网站标题和描述
+  title: 'Code & Think 💻',
   description: '极客的编程笔记 | Code More, Think More',
 
   // 页面数据转换 - 为首页注入最新文章数据
@@ -87,7 +95,7 @@ export default defineConfig({
 
   themeConfig: {
     // 暗色主题配置
-    appearance: 'dark',
+    logo: '/favicon-32x32.png',
 
     // 搜索配置
     search: {

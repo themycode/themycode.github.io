@@ -139,11 +139,12 @@ function updateIndexMd(latestPosts) {
 
   let content = fs.readFileSync(indexMdPath, 'utf-8')
 
-  const postsGridRegex = /(## 📰 最近更新\n\n)(<div class="posts-grid">[\s\S]*?<\/div>)/
+  // 匹配 ## 📰 最近更新 下面的 posts-grid 区域（非贪婪模式，到第一个 </div> 结束）
+  const postsGridRegex = /(## 📰 最近更新\n\n)<div class="posts-grid">[\s\S]*?<\/div>(\n\n<style>)/
   const newPostsGrid = generateHomeSection(latestPosts)
 
   if (postsGridRegex.test(content)) {
-    content = content.replace(postsGridRegex, `$1${newPostsGrid}`)
+    content = content.replace(postsGridRegex, `$1${newPostsGrid}$2`)
     console.log('✅ 已更新 index.md 最新文章区域')
   } else {
     console.log('⚠️  未找到 posts-grid 区域，跳过更新')
