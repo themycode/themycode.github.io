@@ -1,0 +1,56 @@
+{
+  "generated": "2026-03-24T05:07:55.937Z",
+  "categories": [
+    {
+      "category": "技术",
+      "categoryIcon": "💡",
+      "categoryLink": "/tech/intro",
+      "posts": [
+        {
+          "title": "Linux常用命令",
+          "link": "/tech/Linux常用命令",
+          "mtime": 1774326405393.871,
+          "category": "技术",
+          "categoryIcon": "💡",
+          "categoryLink": "/tech/intro"
+        }
+      ]
+    },
+    {
+      "category": "算法",
+      "categoryIcon": "📚",
+      "categoryLink": "/algorithm/intro",
+      "posts": [
+        {
+          "title": "常见排序算法",
+          "link": "/algorithm/常见排序算法",
+          "mtime": 1774324743303.046,
+          "category": "算法",
+          "categoryIcon": "📚",
+          "categoryLink": "/algorithm/intro"
+        }
+      ]
+    },
+    {
+      "category": "工具",
+      "categoryIcon": "🛠️",
+      "categoryLink": "/tools/intro",
+      "posts": [
+        {
+          "title": "发布操作指南",
+          "link": "/tools/发布操作指南",
+          "mtime": 1774328270183.3196,
+          "category": "工具",
+          "categoryIcon": "🛠️",
+          "categoryLink": "/tools/intro"
+        }
+      ]
+    },
+    {
+      "category": "生活",
+      "categoryIcon": "✨",
+      "categoryLink": "/life/intro",
+      "posts": []
+    }
+  ]
+}

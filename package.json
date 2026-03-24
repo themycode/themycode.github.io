@@ -1,11 +1,17 @@
 {
   "devDependencies": {
     "@giscus/vue": "^3.1.1",
+    "@types/node": "^25.5.0",
+    "glob": "^13.0.6",
     "vitepress": "2.0.0-alpha.17"
   },
   "scripts": {
     "web:dev": "vitepress dev",
     "web:build": "vitepress build",
-    "web:preview": "vitepress preview"
-  }
+    "web:preview": "vitepress preview",
+    "update:intro": "node scripts/update-intro.js",
+    "generate:posts": "node scripts/generate-latest-posts.js",
+    "generate:sitemap": "node scripts/generate-sitemap.js"
+  },
+  "type": "module"
 }

@@ -3,8 +3,15 @@
 欢迎来到技术板块！这里分享关于 Web 开发、JavaScript、TypeScript、框架相关的深度技术文章。
 
 ## 最新文章
+- [Linux常用命令](/tech/Linux常用命令)
 
+
+
+
+## 最新文章
+- [Linux常用命令](/tech/Linux常用命令)
 - [Markdown Examples](/markdown-examples) - Markdown 语法示例
+
 
 ## 分类导航
 
