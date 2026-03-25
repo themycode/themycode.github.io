@@ -7,7 +7,7 @@
         repo-id="MDEwOlJlcG9zaXRvcnkxNjQ1ODkxOTU="
         category="Announcements"
         category-id="DIC_kwDOCc9ui84C5HGB"
-        mapping="pathname"
+        mapping="og:title"
         strict="0"
         reactions-enabled="1"
         emit-metadata="0"

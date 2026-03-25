@@ -1,7 +1,15 @@
 {
-  "generated": "2026-03-24T05:16:47.548Z",
-  "total": 3,
+  "generated": "2026-03-25T01:44:57.924Z",
+  "total": 4,
   "posts": [
+    {
+      "title": "openclaw文档笔记",
+      "link": "/tools/openclaw文档笔记",
+      "mtime": "2026-03-24T14:27:56.241Z",
+      "category": "工具",
+      "categoryIcon": "🛠️",
+      "categoryLink": "/tools/intro"
+    },
     {
       "title": "发布操作指南",
       "link": "/tools/发布操作指南",

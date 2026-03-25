@@ -70,6 +70,11 @@ features:
     </div>
     <ul class="post-list">
       <li class="post-item">
+        <a href="/tools/openclaw文档笔记" class="post-link">
+          <span class="post-title">openclaw文档笔记</span>
+        </a>
+      </li>
+      <li class="post-item">
         <a href="/tools/发布操作指南" class="post-link">
           <span class="post-title">发布操作指南</span>
         </a>
