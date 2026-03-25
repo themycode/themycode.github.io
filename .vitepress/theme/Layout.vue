@@ -1,6 +1,8 @@
 <template>
   <Layout>
     <template #doc-after>
+      <!-- Giscus temporarily disabled for debugging -->
+      <!--
       <Giscus
         v-if="showComments"
         repo="themycode/themycode.github.io"
@@ -17,6 +19,7 @@
         crossorigin="anonymous"
         style="max-width: 900px; margin: 0 auto; padding: 20px"
       />
+      -->
     </template>
   </Layout>
 </template>
