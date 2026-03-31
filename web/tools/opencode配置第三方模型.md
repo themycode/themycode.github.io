@@ -57,3 +57,8 @@ scoop install opencode # scoop
 
 ### 参考
 [https://opencode.ai/docs/zh-cn](https://opencode.ai/docs/zh-cn) 
+
+
+curl -L -X GET 'https://api.scnet.cn/api/llm/v1/models' \
+-H 'Accept: application/json' \
+-H 'Authorization: Bearer sk-NDU5LTExMjA1MzczNjA1LTE3NzQ5NzA2NTY1MTQ='
