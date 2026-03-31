@@ -53,3 +53,7 @@ scoop install opencode # scoop
 - 切换绘画 switch session `ct + x l`
 - tab 切换模型的模式，ask/plan
 - 常用命令 `ct + p` 
+
+
+### 参考
+[https://opencode.ai/docs/zh-cn](https://opencode.ai/docs/zh-cn) 
