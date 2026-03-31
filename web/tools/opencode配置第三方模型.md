@@ -51,5 +51,5 @@ scoop install opencode # scoop
 ### 基础命令
 - 模型切换 switch model `ct + x m`
 - 切换绘画 switch session `ct + x l`
-- tab 切换模型 
+- tab 切换模型的模式，ask/plan
 - 常用命令 `ct + p` 
